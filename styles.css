@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+button {
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+.zoom-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoom-card:hover {
+    transform: scale(1.05);
+}
+
+.zoom-card:active {
+    transform: scale(0.95);
+}
