@@ -29,3 +29,36 @@ button:hover {
 .zoom-card:active {
     transform: scale(0.95);
 }
+@media (max-width: 768px) {
+    #extendedForecast .zoom-card {
+        flex-basis: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #extendedForecast .zoom-card {
+        flex-basis: 48%;
+        margin: 1%;
+    }
+}
+
+@media (min-width: 1025px) {
+    #extendedForecast .zoom-card {
+        flex-basis: 22%;
+        margin: 1%;
+    }
+}
+#extendedForecast h3 {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 2rem;
+}
+
+@media (min-width: 1024px) {
+    #extendedForecast h3 {
+        font-size: 2.5rem;
+    }
+}
